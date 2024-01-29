@@ -1,0 +1,70 @@
+main{
+    width: 80%;
+    margin: 0px auto;
+    max-width: 900px;
+    border: 1px solid rgb(117, 194, 245);
+    background-color:  rgb(117, 194, 245);
+    border: 3px solid blue;
+}
+header{
+    max-width: 800px;
+    width: 80%; 
+    margin: 0px auto;
+}
+label{
+    font-size: 25px;
+    margin-right: 10px;
+}
+form{
+    text-align: justify;
+    margin: 30px
+}
+article{
+    max-width: 800px;
+    width: 80%;
+    margin: 0px auto;
+}
+.valasztasok{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px;
+    margin-top: 70px;
+    height: 150px;
+    border: 5px solid blue;
+}
+.nyelvek{
+    margin: 10px;
+    padding-top: 20px;
+}
+.szak{
+    padding-top: 20px;
+    margin: 10px;
+    padding-left: 20px;
+}
+.nemek{
+    padding-top: 20px;
+    margin: 10px;
+    padding-left: 60px;
+}
+footer{
+    margin: 20px;
+    margin-top: 15px;
+}
+input{
+    padding: 7px;
+}
+legend{
+    background-color:rgb(255, 255, 255);
+    padding: 10px;
+    border: 3px solid blue;
+}
+fieldset{
+    background-color: rgb(35, 148, 253);
+    border: 5px solid blue;
+}
+.regisztral{
+    border: 1px solid blue;
+}
+input[type="submit"]{
+    background-color: rgb(255, 255, 255);
+}
